@@ -1,5 +1,5 @@
 {
-  "name": "recursive-readdirsync",
+  "name": "recursive-sync-readdir",
   "version": "1.0.0",
   "description": "Recursive readdirSync using non-recursive loop.",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/kuu12/recursive-readdirsync.git"
   },
   "keywords": [],
-  "author": "kuu",
+  "author": "kuu12",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kuu12/recursive-readdirsync/issues"
