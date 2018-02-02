@@ -1,13 +1,13 @@
 # recursive-sync-readdir
 Recursive readdirSync using non-recursive loop.
 
-##install
-```
-npm install recursive-sync-readdir
+##Installation
+```shell
+$ npm install recursive-sync-readdir
 ```
 
 ## Usage
-```
+```js
 import read from 'recursive-sync-readdir';
 
 // Use regular expression / string / function to match ignored files.  

@@ -13,7 +13,7 @@ module.exports = function (root, ignores) {
     while (directories.length) {
         directory = directories.pop();
         fs
-            .readdirSync(directory)
+            .readdirSync(p.join(root, directory))
             .filter(filter)
             .forEach(dispatch);
     }
@@ -28,9 +28,8 @@ module.exports = function (root, ignores) {
 
     function dispatch(name) {
         var path = p.join(directory, name);
-        var fullPath = p.join(root, path);
         if (fs
-            .statSync(fullPath)
+            .statSync(p.join(root, path))
             .isDirectory()
         ) {
             directories.push(path);
