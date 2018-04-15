@@ -1,7 +1,7 @@
 # recursive-sync-readdir
-Recursive readdirSync using non-recursive loop.
+Recursive readdirSync with non-recursive loop.
 
-##Installation
+## Installation
 ```shell
 $ npm install recursive-sync-readdir
 ```
