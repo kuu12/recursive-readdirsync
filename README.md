@@ -6,10 +6,8 @@
 
 ## Motivation
 There are some similiar libraries. But all of them use recursive function calls. 
-
-In asynchronous case it's all right, but in synchronous case it may cause *Maximum call stack size exceeded*.
-
-This library use `while` loop instead of recursive function calls.
+In asynchronous case it's all right, but in synchronous case it may cause ***Maximum call stack size exceeded***.
+This library use `while` loop instead of recursive function calls, and **call stack is safe**.
 
 ## Installation
 ```shell
