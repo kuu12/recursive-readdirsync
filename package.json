@@ -1,8 +1,8 @@
 {
   "name": "recursive-sync-readdir",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Recursive readdirSync, using `while` loop to prevent call stack from exceeding.",
-  "keyword": [
+  "keywords": [
     "readdirSync",
     "recursive",
     "synchronous",
@@ -16,7 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/kuu12/recursive-sync-readdir.git"
   },
-  "keywords": [],
   "author": "kuu12",
   "license": "MIT",
   "bugs": {
